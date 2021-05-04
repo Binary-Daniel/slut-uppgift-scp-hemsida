@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="SCPstyles/style.css" rel="stylesheet">
+    <script src="../alert.js"></script>
+    <script src="SCPscript/story.js"></script>
+    <script src="SCPscript/license.js"></script>
+    <title>SCP Foundation Arcive</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <img src="../images/scp%20bakrund_ny.png" id="bg" alt="Wallpaper">
+    <header>
+        <div class="dir">
+            <h1><a href="../index.html">HOME</a> > <a href="../safe.html">SAFE</a> > SCP-038</h1>
+            <img src="../images/icons/report.png" id="report" tabindex="1">
+            <div id="selform">
+                <h2><a href="form/bug.html">report bug</a></h2><h2><a href="form/missing%20lore.html">missing lore</a></h2><h2><a href="form/copyright%20claim.html">copyright claim</a></h2>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="box2" id="ls">
+            <ul>
+                <li class="flex"><button class="btn scp" onclick="shows('story1', 'exit1')">Addendum #1</button></li>
+                <li class="flex"><button class="btn scp" onclick="shows('story2', 'exit2')">Addendum #2</button></li>
+                <li class="flex"><button class="btn scp" onclick="shows('story3', 'exit3')">Addendum #3</button></li>
+                <li class="flex"><button class="btn scp" onclick="shows('story4', 'exit4')">Addendum #4</button></li>
+                <li class="flex"><button class="btn scp" onclick="shows('story5', 'exit5')">Document #338-1</button></li>
+                <li class="flex"><button class="btn scp" onclick="shows('story6', 'exit6')">Document #338-2</button></li>
+                <li class="flex"><button class="btn scp" onclick="shows('story7', 'exit7')">SCP-038 Partial Testing Log</button></li>
+                <li class="flex"><button class="btn lisense" onclick="showl()">lisense</button></li>
+            </ul>
+        </div>
+        <div class="box2 hiden" id="exit1">
+            <ul>
+                <li class="flex"><button class="btn scp" onclick="hides('story1', 'exit1')">back</button></li>
+            </ul>
+        </div>
+        <div class="box2 hiden" id="exit2">
+            <ul>
+                <li class="flex"><button class="btn scp" onclick="hides('story2', 'exit2')">back</button></li>
+            </ul>
+        </div>
+        <div class="box2 hiden" id="exit3">
+            <ul>
+                <li class="flex"><button class="btn scp" onclick="hides('story3', 'exit3')">back</button></li>
+            </ul>
+        </div>
+        <div class="box2 hiden" id="exit4">
+            <ul>
+                <li class="flex"><button class="btn scp" onclick="hides('story4', 'exit4')">back</button></li>
+            </ul>
+        </div>
+        <div class="box2 hiden" id="exit5">
+            <ul>
+                <li class="flex"><button class="btn scp" onclick="hides('story5', 'exit5')">back</button></li>
+            </ul>
+        </div>
+        <div class="box2 hiden" id="exit6">
+            <ul>
+                <li class="flex"><button class="btn scp" onclick="hides('story6', 'exit6')">back</button></li>
+            </ul>
+        </div>
+        <div class="box2 hiden" id="exit7">
+            <ul>
+                <li class="flex"><button class="btn scp" onclick="hides('story7', 'exit7')">back</button></li>
+            </ul>
+        </div>
+        <div class="box2 hiden" id="exitl">
+            <ul>
+                <li class="flex"><button class="btn lisense" onclick="hidel()">back</button></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="box3" id="scp">
+            <h2>Item #:<span class="s1">SCP-038</span></h2>
+            <h2>Object Class:<span class="s2">Safe</span></h2>
+            <h2>Special Containment Procedure:</h2>
+            <p>SCP-038 is to be watered twice per day via overhead mister. Should the mister break for any reason, attendants should water SCP-038 by hand until it has been fixed. Lighting is provided by computer-controlled lighting array. Attendants watering SCP-038 by hand and maintenance personnel fixing mister or lighting should wear hazmat suits to prevent accidental cloning.</p>
+            <h2>Description:</h2>
+            <p>SCP-038 was found on an abandoned farm in █████████████, New York, in 19██. It was at first thought to be a common apple tree. However, upon closer inspection, it became apparent that SCP-038 was growing things other than apples and, in fact, other than fruit.</p>
+            <p>SCP-038 has the ability to clone any object that touches its bark. Objects begin growing almost instantaneously and reach maturity within a matter of minutes. A weight limit of 90.9kg (200lb) per object has been previously recorded. Objects that SCP-038 has thus far cloned include: apples, oranges, watermelons, eggplants, candy bars, snack foods (See Addendum #1), televisions, toasters, laptops, keys (See Addendum #2), chairs, wine, DVDs, CDs (See Addendum #3), cats, dogs, and people.</p>
+            <p>Human and animal cloning through SCP-038 is not recommended, as they appear to age quickly. The majority of these clones live, on average, two (2) weeks. After thorough examination of the deceased clones, it has been determined that they had begun to ferment before death.</p>
+            <p>Object is currently held on Site-23 and there are currently no plans to move it.</p>
+        </div>
+        <div class="box3 hiden" id="story1">
+            <h2>Addendum #1:</h2>
+            <p>Dr. Klein has requested that personnel discontinue the cloning of items from the vending machines. (See Document #338-1)</p>
+        </div>
+        <div class="box3 hiden" id="story2">
+            <h2>Addendum #2:</h2>
+            <p>Dr. Klein has requested that personnel discontinue the cloning of personal items. (See Document #338-1)</p>
+        </div>
+        <div class="box3 hiden" id="story3">
+            <h2>Addendum #3:</h2>
+            <p>Dr. Klein has requested that personnel discontinue the cloning of movies and music. (See Document #338-1)</p>
+        </div>
+        <div class="box3 hiden" id="story4">
+            <h2>Addendum #4:</h2>
+            <p>Dr. Klein has requested that personnel discontinue the cloning of cans of Miller, Budweiser, and Foster's. Dr. Klein has furthermore expressed customary disapproval of the quality of such cloned items. (See Document #338-1b)</p>
+        </div>
+        <div class="box3 hiden" id="story5">
+            <h2>Document #338-1:</h2>
+            <p>"I would like to remind all personnel that SCP-038 is not, I repeat, <strong>not</strong> a toy. It should not be used for cloning car keys, movies, music, or items from the vending machines. If this behavior continues I will be forced to limit access to SCP-038.<br>
+            - Dr. Klein"</p>
+        </div>
+        <div class="box3 hiden" id="story6">
+            <h2>Document #338-2:</h2>
+            <p>It has been noted that SCP-038 is able to clone <a href="http://scp-wiki.wikidot.com/scp-500">SCP-500</a> — however, such pills only work 30% of the time, with chance of successful healing dropping as time since cloned increases. In 60% of the cases where the infection is permanent, symptoms of infection remain, though further infection is neutralized.</p>
+        </div>
+        <div class="box3 hiden" id="story7">
+            <h2>SCP-038 Partial Testing Log - select experiments only</h2>
+            <p><sub><strong>For full test records and reports, contact affiliated researchers for authorization</strong></sub></p>
+            <p><strong>Date:</strong> 11/08/████<br>
+            <strong>Intent:</strong> Confirmation of mass limit: investigation into consequences of exceeding limit.<br>
+            <strong>Summary of test results:</strong><br>400 pound steel ingot made contact with the outer bark of SCP-038. Chamber vacated as a precaution. Cloned ingot grew at typical speed, but growth halted abruptly short of completion. Examination of the end of the aborted facsimile revealed a rough texture superficially resembling miniature-scale tree bark. Item detached from SCP-038 as typical, and was subsequently found to weigh 90.91 kilograms, or almost precisely 200 pounds.</p>
+            <p><strong>Date:</strong> 11/08/████<br>
+            <strong>Intent:</strong> Investigation into duplication of non-biological animate matter.<br>
+            <strong>Summary of test results:</strong><br><a href="http://scp-wiki.wikidot.com/scp-173">SCP-173</a>, deemed a suitable test subject because of its lack of verifiable life processes, introduced into containment chamber by Class-D personnel. Contact made with the outer bark of SCP-038, and SCP-173 returned immediately to containment. SCP-173 facsimile began development at typical speed, beginning at point of contact. As consistent with previous results, growth halted at the 200-pound threshold, in this case terminating development after replication of the head, right arm, and partial upper torso. Class-D test subject was ordered to break eye contact with clone. When test subject eventually blinked, no movement was observed in cloned material. Extinguishing and reestablishment of containment chamber light supply revealed no apparent reaction from cloned material. Experiment concluded. During storage of cloned portion of SCP-173, it was observed that the partial facsimile was in fact making violent gestures, at a dramatically slower rate. Movement was shown to continue regardless of state of observation.</p>
+        </div>
+    <!--license-->
+        <div class="cc hiden" id="atrib">
+            <p>Source: <a href="http://scp-wiki.wikidot.com/scp-038">http://scp-wiki.wikidot.com/scp-038</a><br>
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.</p>
+        </div>
+    </main>
+</body>
+</html>

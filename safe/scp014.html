@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="SCPstyles/style.css" rel="stylesheet">
+    <script src="../alert.js"></script>
+    <script src="SCPscript/story.js"></script>
+    <script src="SCPscript/license.js"></script>
+    <title>SCP Foundation Arcive</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <img src="../images/scp%20bakrund_ny.png" id="bg" alt="Wallpaper">
+    <header>
+        <div class="dir">
+            <h1><a href="../index.html">HOME</a> > <a href="../safe.html">SAFE</a> > SCP-014</h1>
+            <img src="../images/icons/report.png" id="report" tabindex="1">
+            <div id="selform">
+                <h2><a href="form/bug.html">report bug</a></h2><h2><a href="form/missing%20lore.html">missing lore</a></h2><h2><a href="form/copyright%20claim.html">copyright claim</a></h2>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="box2" id="ls">
+            <ul>
+                <li class="flex"><button class="btn" onclick="shows('story1', 'exit1')">Addendum</button></li>
+                <li class="flex"><button class="btn" onclick="showl()">lisense</button></li>
+            </ul>
+        </div>
+        <div class="box2 hiden" id="exit1">
+            <ul>
+                <li class="flex"><button class="btn" onclick="hides('story1', 'exit1')">Back</button></li>
+            </ul>
+        </div>
+        <div class="box2 hiden" id="exitl">
+            <ul>
+                <li class="flex"><button class="btn" onclick="hidel()">Back</button></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="box3" id="scp">
+            <h2>Item #:<span class="s1">SCP-014</span></h2>
+            <h2>Object Class:<span class="s2">Safe</span></h2>
+            <h2>Special Containment Procedures:</h2>
+            <p>SCP-014 is to be kept in Site-██, in a chair with arms, preferably facing a window. Music should be supplied on a regular basis, preferably constantly. This music should not include pieces originating after 1937. A security camera should be present in SCP-014's room.</p>
+            <h2>Description:</h2>
+            <p>SCP-014 is a Caucasian male, appearing to be approximately 30 years of age, with black hair, brown eyes, and a somewhat round face. Records indicate his name to be Robert Chetford, confined in 1915 to the Norwich Asylum in Connecticut for delusional insanity, claiming that he had been cursed to live forever, and was slowly turning into concrete in consequence. The asylum closed in 1937, and the patients were transferred to various other facilities. SCP-014 came to Foundation attention in 19██, from rumours of a patient who seemed to be entirely immobile and showed no signs of aging. Further investigation determined that acquisition was warranted.</p>
+            <p>SCP-014 is to all outward appearances a normal man, but he does not appear to age, and shows no signs of possessing a metabolism. He does not eat, drink, perspire, or in any other way demonstrate life functions. He breathes only to speak, and apart from his eyes and vocal apparatus, is to all appearances utterly immobile. He has never shown any evidence of pressure ulcers despite his position not having varied for several decades; neither do his muscles appear atrophied. He can converse normally, but shows little knowledge of or interest in events since his confinement.</p>
+        </div>
+        <div class="box3 hiden" id="story1">
+            <h2>Addendum:</h2>
+            <p><em>Note: Frankly, were I to interview this man without knowing his history, I'd think he was a perfectly sane and well-adjusted individual who happens to be quadriplegic. As it is, I have to conclude that he's the ultimate proof of the idea that the mind rules the body. He thinks he's concrete, and will live forever, and so he's as close to both as he can be. Somehow.<br>
+            -Dr. █████</em></p>
+        </div>
+    <!--license-->
+        <div class="cc hiden" id="atrib">
+            <p>Source: <a href="http://scp-wiki.wikidot.com/scp-014">http://scp-wiki.wikidot.com/scp-014</a><br>
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.</p>
+        </div>
+    </main>
+</body>
+</html>
