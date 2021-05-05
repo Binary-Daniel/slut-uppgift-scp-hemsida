@@ -59,10 +59,10 @@ header, nav, main {
         padding-right: 5vw;
     }
     .box3 .s1{
-        margin-left: 3.5vw;
+        margin-left: 10.3vw;
     }
     .box3 .s2{
-        margin-left: 2vw;
+        margin-left: 9vw;
     }
 }
 @media screen and (min-width: 47rem){
@@ -70,7 +70,7 @@ header, nav, main {
         font-size: 3rem;
     }
     .box3 .s1{
-        margin-left: 10.5vw;
+        margin-left: 9.6vw;
     }
     .box3 .s2{
         margin-left: 9vw;
@@ -117,7 +117,7 @@ h1, .btn{
     color: white;
     text-decoration: none;
 }
-h2{
+h2, address{
     font-family: "Overpass";
     color: white;
 }
@@ -254,10 +254,7 @@ a{
 }
 .box3 .W1, .box3 .W2, .box3 .W3{
     text-align: center;
-    text-shadow: red;
-}
-#about .s2{
-    text-shadow: 1rem 1rem 2rem red;
+    text-shadow: 0 0 2rem red;
 }
 #about a{
     color: coral;
