@@ -1,9 +1,9 @@
 function bug(){
-    alert("Mail me at daniel.esteen.edu@rattvik.se\nSet the topic to SCP BUG\nWrite wher/how to find it");
+    if(!alert("Write wher/how to find it\nIf neded you will be contacted")) window.location.href = "mailto:daniel.esteen.edu@rattvik.se?subject=SCP_Bug";
 }
 function lore(){
-    alert("Mail me at daniel.esteen.edu@rattvik.se\nSet the topic to SCP LORE\nWrite wher and what is missing");
+    if(!alert("Write wher and what is missing\nIf neded you will be contacted")) window.location.href = "mailto:daniel.esteen.edu@rattvik.se?subject=SCP_Lore";
 }
 function claim(){
-    alert("Mail me at daniel.esteen.edu@rattvik.se\nSet the topic to SCP CLAIM\nWrite what you copiright claim on this website");
+    if(!alert("Write what you copiright claim on this website")) window.location.href = "mailto:daniel.esteen.edu@rattvik.se?subject=SCP_Claim";
 }

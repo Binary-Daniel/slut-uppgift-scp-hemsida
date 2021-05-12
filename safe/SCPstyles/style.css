@@ -51,7 +51,7 @@ header, nav, main {
     src: url("../../fonts/Ubuntu-Light.ttf") format("truetype");
 }
 
-@media screen and (max-width: 53rem){
+@media screen and (max-width: 47rem){
     h1, .btn{
         font-size: 2rem;
     }
@@ -189,25 +189,30 @@ hr{
     outline: none;
 }
 #selform{
-    display: none;
-    position: absolute;
-    top: 3rem;
-    right: -1.5rem;
-    height: 10.1rem;
-    width: 16rem;
-    background-color: black;
-    border: 3px solid white;
+    display:none;
+    position: fixed;
+    z-index: 1;
+    top: calc(7vh + 3rem);
+    right: 0.5rem;
+    height: 10.2rem;
+    background-color: white;
+    box-shadow: 0 0 10rem black;
 }
 #selform h2{
-    border-bottom: 3px solid white;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-bottom: 1rem;
-    text-decoration: none;
+    background: black;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.3rem;
+    line-height: 0.1rem;
+    word-spacing: 0.2rem;
     font-size: 2rem;
-    line-height: 0.5rem;
 }
-#report img:focus + #selform{
+#report:focus + #selform{
     display: block;
 }
 #selform:hover{
